@@ -1,0 +1,7 @@
+version: "3.7"
+services:
+  app:
+    restart: always
+    image: com.hhovhann/sort:latest
+    container_name: sort-app
+    ports:
